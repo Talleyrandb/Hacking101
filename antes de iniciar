@@ -16,16 +16,6 @@ SEGUNDO PASO
 
 conectar a la VPN del cliente
 
-Tercer PASO 
-
-Descubrimiento 
-
-El cliente debe entregar los objetivos a analizar, identificar si el objetivo esta activo se ejecuta el sisguiente comando 
-
-ping -c 1 10.90.10.15
-
-es recomendable saber todos los objetivos en el segmento de red para hacer eso abrimos, una terminal en kali linux 
-y empleando la herramienta nmap 
 
 Herramienta 1 
 
