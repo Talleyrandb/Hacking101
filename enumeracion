@@ -1,0 +1,18 @@
+El cliente debe entregar los objetivos a analizar, identificar si el objetivo esta activo se ejecuta el siguiente comando 
+
+ping -c 1 10.90.10.15
+
+es recomendable saber todos los objetivos en el segmento de red para hacer eso abrimos, una terminal en Kali Linux y empleando la herramienta nmap 
+
+Herramienta 01 
+
+NMAP TCP 
+
+para poder identificar todos los objetivos de un segmento de red emplear este comando 
+
+nmap 10.90.10.0/24
+
+para identificar los puertos abiertos en un objetivo
+
+nmap -p- --open -T5 -v -n -Pn 10.90.10.15
+nmap -p- -sS --min-rate 5000 --open -vvv -n –Pn 10.90.10.15 
