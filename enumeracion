@@ -1,7 +1,43 @@
-la enumeracion es la parte inicial de cualquier tipo de analisis manual 
-cuando se analizar una infraestrctura o una aplicacion web es recomendable primero identificar del objetivo 
-la direccion Ip o URL
+la enumeración es la parte inicial de cualquier tipo de análisis manual 
+cuando se analizar una infraestructura o una aplicación web es recomendable primero identificar del objetivo 
+la dirección IP o URL
 los servicios que expone
 las versiones de los servicios 
 los protocolos que emplea 
-la version del sistema operativo que vamos a analizar
+la versión del sistema operativo que vamos a analizar
+
+NOTA: para esta guia se emplea el segmento de red 10.90.10.0/24
+
+PRIMER PASO 
+
+Contar con autorización del cliente para realizar las pruebas de intrusión 
+
+SEGUNDO PASO 
+
+conectar a la VPN del cliente
+
+Tercer PASO 
+
+Descubrimiento 
+
+El cliente debe entregar los objetivos a analizar, identificar si el objetivo esta activo se ejecuta el sisguiente comando 
+
+ping -c 1 10.90.10.15
+
+es recomendable saber todos los objetivos en el segmento de red para hacer eso abrimos, una terminal en kali linux 
+y empleando la herramienta nmap 
+
+Herramienta 1 
+
+NMAP TCP 
+
+para poder identificar todos los onjetivos de un segmento de red emplear este comando 
+
+nmap 10.90.10.0/24
+
+para identificar los puertos abiertos en un objetivo
+
+nmap -p- --open -T5 -v -n -Pn 10.90.10.15
+
+nmap -p- -sS --min-rate 5000 --open -vvv -n –Pn 10.90.10.15
+
