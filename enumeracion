@@ -1,0 +1,7 @@
+la enumeracion es la parte inicial de cualquier tipo de analisis manual 
+cuando se analizar una infraestrctura o una aplicacion web es recomendable primero identificar del objetivo 
+la direccion Ip o URL
+los servicios que expone
+las versiones de los servicios 
+los protocolos que emplea 
+la version del sistema operativo que vamos a analizar
