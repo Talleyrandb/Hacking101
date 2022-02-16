@@ -14,20 +14,4 @@ Contar con autorización del cliente para realizar las pruebas de intrusión
 
 SEGUNDO PASO 
 
-conectar a la VPN del cliente
-
-
-Herramienta 1 
-
-NMAP TCP 
-
-para poder identificar todos los onjetivos de un segmento de red emplear este comando 
-
-nmap 10.90.10.0/24
-
-para identificar los puertos abiertos en un objetivo
-
-nmap -p- --open -T5 -v -n -Pn 10.90.10.15
-
-nmap -p- -sS --min-rate 5000 --open -vvv -n –Pn 10.90.10.15
-
+conectar a la VPN del cliene
