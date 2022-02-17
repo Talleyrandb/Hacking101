@@ -17,7 +17,7 @@ SEGUNDO PASO
 conectar a la VPN del cliente, desde la terminal en Kali-Linux crear un alias para conectar facil mente a la VPN empleando leafpad, que es un editor de texto 
 
 leafpad .bashrc
- en la parte inferior colocar la siguiente linea 
+en la parte inferior del archivo .bashrc colocar la siguiente linea 
  
  alias VPN='openvpn /root/clientes01/vpn.ovpn &'
  
