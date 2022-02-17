@@ -14,4 +14,17 @@ Contar con autorización del cliente para realizar las pruebas de intrusión
 
 SEGUNDO PASO 
 
-conectar a la VPN del cliene
+conectar a la VPN del cliente, desde la terminal en Kali-Linux crear un alias para conectar facil mente a la VPN empleando leafpad, que es un editor de texto 
+
+leafpad .bashrc
+ en la parte inferior colocar la siguiente linea 
+ 
+ alias VPN='openvpn /root/clientes01/vpn.ovpn &'
+ 
+ para verificar que esta activa la conexion 
+ 
+ ps aux | grep "ovpnvpn"
+ 
+ TERCER PASO 
+ 
+ crear una carpeta donde se guardara toda la evidencia que se capture del cliente 
